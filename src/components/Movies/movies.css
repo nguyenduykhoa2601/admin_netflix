@@ -1,0 +1,90 @@
+.admin__movies{
+    border: 4px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+    
+}
+.admin__movies-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 5px 12px;
+}
+.admin__movies-detail{
+    width: 100%;
+    font: 1.4rem;
+    margin-top: 10px;
+}
+.table__title th{
+    border-right: 1px solid #ccc;
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    font-size: 1.4rem;
+}
+.detail__movie td{
+    font-size: 1.4rem;
+  
+
+}
+.movie__index{
+    width: 5%;
+    text-align: center;
+}
+.movie__id{
+    width: 22%;
+    padding: 10px 0 10px 10px;
+
+}
+.movie__name{
+    width: 22%;
+   
+}
+.movie__name div{
+    display: flex;
+}
+.movie__name img{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.movie__name span{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.movie__genre{
+    width: 12%;
+    padding: 10px 0 10px 10px;
+}
+.movie__year{
+    width: 12%;
+    text-align: center;
+}
+.movie__limit,
+.movie__series{
+    width: 7.2%;
+    text-align: center;
+}
+.movie__action{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.movie__action-fix{
+    margin: -5px 12px 0;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(89, 143, 8);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.movie__action-fix:hover{
+    opacity: 0.95;
+}
+.movie__action i{
+    font-size: 1.6rem;
+    color: red;
+    cursor: pointer;
+}

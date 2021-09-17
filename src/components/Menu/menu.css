@@ -1,0 +1,33 @@
+.menu__list{
+     width: 100%;
+     list-style: none;
+}
+.menu__list-heading{
+    padding: 7px 12px;
+    font-weight: 600;
+    color: rgb(172, 169, 169);
+    font-size: 1.6rem;
+}
+.menu__item-link{
+    text-decoration: none;
+}
+.menu__item{
+    width: 80%;
+    margin-left: 10px;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.menu__item:hover{
+    background-color: rgba(214, 212, 212, 0.329);
+}
+.menu__item--active{
+    background-color: rgba(214, 212, 212, 0.329);
+    color: rgb(63, 27, 223);
+}
+.menu__item i{
+    margin-right: 10px;
+    font-size: 1.4rem;
+}

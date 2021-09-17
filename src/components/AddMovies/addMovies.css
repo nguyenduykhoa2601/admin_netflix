@@ -1,0 +1,45 @@
+
+.add__movies-heading{
+    padding: 10px 12px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.movie__heading{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(116, 110, 110);
+    padding: 10px 0;
+}
+.input-img{
+    margin-left: 20px;
+    
+}
+.input-text{
+    margin-left: 20px;
+    padding: 5px 10px;
+    width: 80%;
+}
+.input-select,
+.input-video{
+    margin-left: 20px;
+}
+.input-select{
+
+    padding: 5px 10px;
+    width: 80%;
+   
+}
+.upload-movie{
+    width: 10%;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 45%;
+    border: none;
+    background-color: rgb(5, 5, 128);
+    color: white;
+    border-radius: 2px;
+}

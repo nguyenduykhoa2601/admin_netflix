@@ -1,0 +1,109 @@
+.new__list-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px 12px;
+}
+.title__list{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.title__list-heading{
+    color: #ccc;
+    padding: 10px 15px;
+}
+.title__list input,
+.title__list select{
+    width: 70%;
+    padding: 5px 10px;
+    margin-left: 25px;
+}
+.title__list-heading{
+    color: #ccc;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    font-weight: 500;   
+}
+.list-content{
+    width: 80%;
+    height: 250px;
+    overflow-y: scroll;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+.list-create{
+    margin-top: 150px;
+    padding: 5px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+.list-create:hover{
+    opacity: 0.95;
+}
+
+
+
+
+.addlist__movies{
+    margin-top: 50px;
+    width: 100%;
+}
+.addlist__movies thead tr th{
+    font-size: 1.5rem;
+    border-left: 1px solid #ccc; 
+    padding: 5px 0;
+}
+.addlist__movie-index{
+    width: 5%;
+}
+.addlist__movie-name{
+    width: 30%;
+}
+.addlist__movie-year{
+    width: 15%;
+}
+.addlist__movie-limit,
+.addlist__movie-limit{
+    width: 10%;
+}
+
+.addlist__movie-item td{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 5px 0;
+}
+.addlist__movie-item td:nth-child(2){
+    font-weight: 500;
+}
+
+.addlist__movie-add{
+    padding: 5px 15px;
+    border: none;
+    background-color : green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.addlist__movie-add:hover{
+    opacity: 0.95;
+}
+
+
+.list__item-movie{
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list__item-title{
+    font-size: 1.2rem;
+}
+.list__item-movie i{
+    color: red;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-top: 2px;
+}

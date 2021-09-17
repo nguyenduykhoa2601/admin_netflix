@@ -1,0 +1,31 @@
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nofication{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 50px;
+}
+.success{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: green;
+    margin-left: 10px;
+}
+.success-icon{
+    font-size: 1.6rem;
+    color: green;
+}
+.delete{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: red;
+    margin-left: 10px;
+}
+.delete-icon{
+    font-size: 1.6rem;
+    color: red;
+}

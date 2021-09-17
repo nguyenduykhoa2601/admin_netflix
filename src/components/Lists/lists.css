@@ -1,0 +1,54 @@
+.admin__lists {
+    border: 3px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+
+.admin__lists-heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px 12px;
+}
+
+.table__lists {
+    width: 100%;
+}
+
+.table__lists-heading th {
+    border-right: 1px solid #ccc;
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
+
+.detail__list td {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+.list__index{
+    width: 5%;
+}
+.list__id,
+.list__title{
+    width: 22%;
+}
+.list__gerne,
+.list__type{
+    width: 15%;
+}
+.list__action-fix{
+    padding: 5px 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.list__action-fix:hover{
+    opacity: 0.95;
+}
+.list__action i{
+    color: red;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
